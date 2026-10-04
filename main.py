@@ -7,7 +7,7 @@ app = FastAPI()
 
 
 @app.get("/", response_class=HTMLResponse)
-async def home(name: str = "Preethi Priya") -> str:
+async def home(name: str = "Cutie") -> str:
 	safe_name = escape(name)
 	if safe_name:
 		content = f"""
