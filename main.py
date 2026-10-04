@@ -21,14 +21,16 @@ async def home(name: str = "Cutie") -> str:
 				<p class="eyebrow" id="recipient">A tiny question for {safe_name}</p>
 				<h1 id="question" aria-live="polite" tabindex="-1">Do you love me? 🥰</h1>
 				<div class="answers" id="answers">
-					<button class="yes" id="yes" type="button">Yes 💖</button>
-					<button class="no" id="no" type="button">No 🙈</button>
+					<button class="yes" id="yes" type="button">Yes cheppu 💖</button>
+					<button class="no" id="no" type="button">No chepthe thantha 🙈</button>
 				</div>
 				<p class="note" id="note">Choose honestly. I can take it. Probably.</p>
 				<div class="celebration" id="celebration" aria-hidden="true"></div>
 			</section>
 			<script>
 				const questions = [
+                    "Mudhu pedathava ledhaa.........",
+                    "Muskoni pettu,,,,,,,,,,",
 					"Are you sure you don't love me? 🥺",
 					"Not even a teeny, tiny bit? 🥹",
 					"What if I ask with my best puppy eyes? 🐶",
